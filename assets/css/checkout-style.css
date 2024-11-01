@@ -1,0 +1,25 @@
+#zenkipay-payment-container {
+    text-align: center;
+}
+
+.znk-crypto-btn {
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.col-md-12 {
+    clear: both;
+}
+
+.woocommerce-thankyou-order-received {
+    border: 2px dashed #bbe2ec !important;
+    color: #3b889d !important;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: #edf9fc;
+    line-height: 1 !important;
+}

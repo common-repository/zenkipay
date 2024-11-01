@@ -1,0 +1,53 @@
+{
+    "name": "zenki/zenkipay",
+    "description": "The Zenkipay SDK for PHP provides convenient access to the Zenkipay API from applications written in the PHP language.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://zenki.fi",
+    "keywords": [
+        "crypto",
+        "payments",
+        "cryptocurrencies",
+        "blockchain",
+        "web3",
+        "bitcoin"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zenkipay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ],
+        "psr-4": {
+            "Zenkipay\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Federico Balderas",
+            "email": "federico.balderas@zenki.fi"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.4",
+        "psr/http-factory": "^1.0",
+        "psr/http-client": "^1.0",
+        "php-http/client-common": "^2.6",
+        "php-http/discovery": "^1.14",
+        "psr/http-client-implementation": "^1.0",
+        "symfony/options-resolver": "^5.4",
+        "php-http/curl-client": "^2.2"
+    },
+    "require-dev": {
+        "laminas/laminas-diactoros": "^2.17",
+        "php-http/mock-client": "^1.5",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.4"
+    }
+}
